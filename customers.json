@@ -1,0 +1,72 @@
+{ 
+    "status": 0, 
+    "customerId": 2, 
+    "mobileNumber": "7377688748", 
+    "name": "Biswa", 
+    "statusDesc": "VERIFIED", 
+    "balanceLimitPipe1": 24900, 
+    "balanceLimitPipe2": 25000, 
+    "balanceLimitPipe3": 25000, 
+    "gateWayList": { 
+    "0": { 
+    "id": 1, 
+    "pipeType": "DMT_GT1", 
+    "pipeFlag": true, 
+    "splitService": true, 
+    "verificationFlag": true, 
+    "balance": 24900, 
+    "channelList": { 
+    "imps": true, 
+    "neft": true 
+    } 
+    }, 
+    "1": { 
+    "id": 2, 
+    "pipeType": "DMT_GT2", 
+    "pipeFlag": true, 
+    "splitService": true, 
+    "verificationFlag": true, 
+    "balance": 25000, 
+    "channelList": { 
+    "imps": true, 
+    "neft": true 
+    } 
+    }, 
+    "2": { 
+    "id": 3, 
+    "pipeType": "DMT_GT3", 
+    "pipeFlag": false, 
+    "splitService": false, 
+    "verificationFlag": false, 
+    "balance": 25000, 
+    "channelList": { 
+    "imps": true, 
+    "neft": false 
+    } 
+    } 
+    }, 
+    "beneList": [ 
+    { 
+    "id": 20, 
+    "customerNumber": "7377688748", 
+    "beneMobileNo": "7377688748", 
+    "beneName": "IserveU ICIC", 
+    "accountNo": "8798778584848", 
+    "bankName": "ICICI BANK LTD", 
+    "ifscCode": "ICIC0003691", 
+    "createdDate": 1511962781000, 
+    "status": true 
+    }, 
+    { 
+    "id": 44, 
+    "customerNumber": "7377688748", 
+    "beneMobileNo": "7377688748", 
+    "beneName": "biswas", 
+    "accountNo": "34345646657", 
+    "bankName": "STATE BANK OF INDIA", 
+    "ifscCode": "SBIN0001266", 
+    "createdDate": 1512747517000, 
+    "status": true 
+    } 
+    ] 
+    } 
